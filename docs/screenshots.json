@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar popover lists your recent clips, with a detected API key masked as dots and set to expire in seconds.","alt":"PrivateClipVault menu bar popover with clipboard history and a masked secret"},
+  {"file":"02-history.png","caption":"The Clipboard History window shows your full history in a searchable list; click any entry to copy it back.","alt":"Searchable Clipboard History window"},
+  {"file":"03-settings.png","caption":"In Settings you choose history size, item lifetime, secret skipping, the Touch ID lock, ignored apps and launch at login.","alt":"PrivateClipVault Settings window"}
+]

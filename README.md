@@ -1,5 +1,7 @@
 # PrivateClipVault
 
+**🌐 Website:** [turhe123.github.io/private-clip-vault](https://turhe123.github.io/private-clip-vault/)
+
 A clipboard history that skips secrets, expires old items, and keeps everything encrypted on your Mac.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -32,7 +34,17 @@ PrivateClipVault is a free, open-source, 100% native, backend-free alternative t
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="PrivateClipVault menu bar popover with clipboard history and a masked secret" width="720"></p>
+
+<p align="center"><em>The menu bar popover lists your recent clips, with a detected API key masked as dots and set to expire in seconds.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-history.png" alt="Searchable Clipboard History window" width="560"></p>
+
+<p align="center"><em>The Clipboard History window shows your full history in a searchable list click any entry to copy it back.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="PrivateClipVault Settings window" width="560"></p>
+
+<p align="center"><em>In Settings you choose history size, item lifetime, secret skipping, the Touch ID lock, ignored apps and launch at login.</em></p>
 
 ## Install
 

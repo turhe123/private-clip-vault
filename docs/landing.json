@@ -1,0 +1,60 @@
+{
+  "seo_title": "Private clipboard history for macOS",
+  "seo_description": "Free, open-source clipboard history for macOS that skips passwords and keys, expires old items, and keeps history AES-encrypted on your Mac. No account.",
+  "hero_title_line1": "Clipboard history that",
+  "hero_title_accent": "forgets your secrets",
+  "hero_sub": "PrivateClipVault lives in your menu bar and remembers what you copy, minus passwords, card numbers and API keys. History expires on its own and is encrypted on your Mac.",
+  "features_title": "Convenient history, kept private.",
+  "features_sub": "Everything stays on your Mac, with no server, no account and no network code.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "Secret detection built in",
+      "desc": "Skips items flagged concealed by password managers, Luhn-valid card numbers, known key prefixes like ghp_ and AKIA, and long high-entropy tokens."
+    },
+    {
+      "icon": "clock",
+      "title": "Items expire automatically",
+      "desc": "Choose a lifetime of 1 minute, 5 minutes, 1 hour, 1 day or never. Expired items are removed from disk on the next write."
+    },
+    {
+      "icon": "lock",
+      "title": "Encrypted at rest",
+      "desc": "History is sealed with AES-GCM. The 256-bit key lives in your login keychain, not next to the data."
+    },
+    {
+      "icon": "shield",
+      "title": "Optional Touch ID lock",
+      "desc": "Require Touch ID or your account password to view history. It re-locks after 60 seconds of inactivity and when the screen locks."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Searchable, click to copy",
+      "desc": "The menu shows your 10 most recent clips. Show All opens a searchable list, and clicking an entry copies it back."
+    },
+    {
+      "icon": "sliders",
+      "title": "Control over what is captured",
+      "desc": "Ignore specific apps, pause capture, clear everything, and set history size from 10 to 500 entries. Launch at login is optional."
+    }
+  ],
+  "permissions_step": "No special permissions are required; macOS may ask you to approve Login Items in System Settings > General only if you enable Launch at login.",
+  "faq": [
+    {
+      "q": "Is PrivateClipVault really free and open source?",
+      "a": "Yes. It is released under the MIT license, and the full source is on GitHub. There are no ads, accounts, analytics or paid tiers."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None of the privacy permissions: no Accessibility, Screen Recording or Microphone access. It uses the keychain for its own encryption key, and Touch ID only if you turn on the lock."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "In an encrypted file at ~/Library/Application Support/PrivateClipVault/vault.sealed on your Mac. The key is in your login keychain, and nothing is ever sent over the network."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to approve it, or build it yourself from source."
+    }
+  ]
+}
